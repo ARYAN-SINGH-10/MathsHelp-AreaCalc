@@ -1,5 +1,5 @@
 # Stage 1: Compile Java Source
-FROM openjdk:21-slim AS build
+FROM eclipse-temurin:21-jdk-jammy AS build
 
 WORKDIR /app
 
